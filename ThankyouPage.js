@@ -4,6 +4,8 @@
 // data becomes available.
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
+  'event':'transaction',
+  'currencyCode':'THB',
   'ecommerce': {
     'purchase': {
       'actionField': {
@@ -21,7 +23,7 @@ dataLayer.push({
         'brand': 'Google',
         'category': 'Apparel',
         'variant': 'Gray',
-        'quantity': 1,
+        'quantity': 1,                          // Required
         'coupon': ''                            // Optional fields may be omitted or set to empty string.
        },
        {
@@ -31,9 +33,10 @@ dataLayer.push({
         'brand': 'Google',
         'category': 'Apparel',
         'variant': 'Black',
-        'quantity': 1
+        'quantity': 1           
        }]
     }
   }
 });
 </script>
+//Put this script above GTM Container snippet

@@ -1,0 +1,22 @@
+<script>
+    // Send this datalayer pageload, above GTM Container snippet.
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    'pageType': 'basket',
+    'event':'checkout1',
+    'currencyCode':'THB',
+    'ecommerce': {
+        'checkout': {
+            'actionField' : {'step': 1},
+            'products' : [{                           
+               'name': 'Triblend Android T-Shirt',     // Required
+                'id': '12345',                         // Required
+                'price': '15.25',
+                'brand': 'Google',
+                'category': 'Apparel',
+                'variant': 'Gray',                      // Optional fields may be omitted or set to empty string.
+           }]
+      }
+    }
+});
+</script>

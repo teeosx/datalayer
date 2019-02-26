@@ -1,7 +1,7 @@
 ## Enhanced ecommerce tracking for Google Analytics
 Enhanced ecommerce adds functionality to your Google Analytics reports. It shows when customers add items to their shopping carts, when they started the checkout process, and when they completed a purchase.
 
-### Common pitfalls on DataLayer
+### Data Layer warning
 * Pricing value must not contain any comma<br/>
  Example : ‘1,000.00’ is wrong ‘1000.00’ is correct
 * All single quote in the String must be escaped with backslash('\\') <br/>

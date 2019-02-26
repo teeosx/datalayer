@@ -4,7 +4,7 @@ Enhanced ecommerce adds functionality to your Google Analytics reports. It shows
 ### Common pitfalls on DataLayer
 * Pricing value must not contain any comma<br/>
  Example : ‘1,000.00’ is wrong ‘1000.00’ is correct
-* All single quote in the String must be escaped with backslash(\) <br/>
+* All single quote in the String must be escaped with backslash('\\') <br/>
  Example : ‘Let’s Celebrate’   is wrong       ‘Let\’s Celebrate’ is correct
 * Free Items can be included in datalayer but its price must be zero and its name and sku must be unique
 * Website with multiple languages must have only one default language value in datalayer (English is favorable)
